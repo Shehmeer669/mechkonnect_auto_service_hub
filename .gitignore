@@ -1,0 +1,98 @@
+# Flutter specific
+.fvm/
+build/
+.dart_tool/
+.flutter-plugins
+.flutter-plugins-dependencies
+.packages
+.pub-cache/
+.pub/
+**/doc/api/
+.flutter-plugins
+.flutter-plugins-dependencies
+
+# Files and directories created by pub
+pubspec.lock
+
+# Directory created by dartdoc
+doc/api/
+
+# Avoid committing generated files:
+*.g.dart
+*.freezed.dart
+*.mocks.dart
+
+# IDE files
+.vscode/
+.idea/
+*.iml
+*.ipr
+*.iws
+
+# OS generated files
+.DS_Store
+.DS_Store?
+._*
+.Spotlight-V100
+.Trashes
+ehthumbs.db
+Thumbs.db
+
+# Android specific
+android/app/upload-keystore.jks
+android/app/debug.keystore
+android/key.properties
+android/.gradle/
+android/captures/
+android/gradlew
+android/gradlew.bat
+android/local.properties
+**/android/**/gradle-wrapper.jar
+**/android/.gradle
+**/android/captures/
+**/android/gradlew
+**/android/gradlew.bat
+**/android/local.properties
+**/android/**/GeneratedPluginRegistrant.java
+
+# iOS specific
+ios/Runner/GeneratedPluginRegistrant.*
+ios/Flutter/Flutter.framework
+ios/Flutter/Flutter.podspec
+ios/Flutter/Generated.xcconfig
+ios/Flutter/app.flx
+ios/Flutter/app.zip
+ios/Flutter/flutter_assets/
+ios/Flutter/flutter_export_environment.sh
+ios/ServiceDefinitions.json
+ios/Runner/GeneratedPluginRegistrant.*
+ios/.symlinks/
+ios/Pods/
+ios/Runner.xcworkspace/
+
+# Web specific
+web/canvaskit/
+
+# Symbolication related
+app.*.symbols
+
+# Obfuscation related
+app.*.map.json
+
+# Firebase
+ios/Runner/GoogleService-Info.plist
+android/app/google-services.json
+firebase_options.dart
+
+# Environment variables
+.env
+.env.local
+.env.development
+.env.production
+
+# Test coverage
+coverage/
+
+# Temporary files
+*.tmp
+*.temp
