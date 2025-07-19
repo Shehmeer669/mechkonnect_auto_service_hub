@@ -10,6 +10,8 @@ import '../../features/auth/screens/otp_verification_screen.dart';
 import '../../features/auth/screens/signup_screen.dart';
 import '../../features/auth/screens/complete_profile_screen.dart';
 import '../../features/user/screens/user_home_screen.dart';
+import '../../features/user/screens/book_mechanic_screen.dart';
+import '../../features/user/screens/marketplace_home_screen.dart';
 import '../../features/user/screens/user_screens.dart';
 import '../../features/mechanic/screens/mechanic_screens.dart';
 import '../../features/admin/screens/admin_screens.dart';
